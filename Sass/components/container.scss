@@ -1,0 +1,14 @@
+body{
+    align-items: center;
+    background-color: var(--c-bg);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+footer{
+    a{
+        color: rgb(163, 125, 0);
+    }
+}
