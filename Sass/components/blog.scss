@@ -34,7 +34,7 @@
         text-transform: capitalize;
         width: min-content;
 
-        @media screen and (min-width: 414px){
+        @media screen and (min-width: 425px){
             font-size: .8rem;
         }
     }
@@ -42,7 +42,7 @@
     &__date{
         font-size: 0.75rem;
 
-        @media screen and (min-width: 414px){
+        @media screen and (min-width: 425px){
             font-size: .8rem;
         }
     }
@@ -58,7 +58,7 @@
             transition: color 0.2s ease;
         }
 
-        @media screen and (min-width: 414px){
+        @media screen and (min-width: 425px){
             font-size: 1.5rem;
         }
     }
@@ -68,7 +68,7 @@
         font-size: 0.85rem;
         line-height: 1.4;
 
-        @media screen and (min-width: 414px){
+        @media screen and (min-width: 425px){
             max-width: 320px;
             font-size: 1rem;
         }

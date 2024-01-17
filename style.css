@@ -34,9 +34,27 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
-footer a {
+body footer {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+body footer a {
   color: rgb(163, 125, 0);
+  text-decoration: none;
+  position: relative;
+}
+body footer a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(32, 29, 18);
+  transition: width 0.3s ease;
+}
+body footer a:hover:before {
+  width: 100%;
 }
 
 .blog {
@@ -73,7 +91,7 @@ footer a {
   text-transform: capitalize;
   width: min-content;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
   .blog__topic {
     font-size: 0.8rem;
   }
@@ -81,7 +99,7 @@ footer a {
 .blog__date {
   font-size: 0.75rem;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
   .blog__date {
     font-size: 0.8rem;
   }
@@ -96,7 +114,7 @@ footer a {
   color: var(--c-bg);
   transition: color 0.2s ease;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
   .blog__title {
     font-size: 1.5rem;
   }
@@ -106,7 +124,7 @@ footer a {
   font-size: 0.85rem;
   line-height: 1.4;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 425px) {
   .blog__resume {
     max-width: 320px;
     font-size: 1rem;
