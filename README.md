@@ -19,7 +19,7 @@ This is a solution to the [Blog preview card](https://www.frontendmentor.io/chal
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-desktop-profile-card-wsass-CQaVj86BjF)
+- Solution URL: (https://www.frontendmentor.io/solutions/mobile-first-method-transitions-sass-H5o5ixX8IT)
 - Live Site URL: (https://ricardodcc.github.io/Blog-preview-card/)
 
 ## My process
